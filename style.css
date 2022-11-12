@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0846d;
+  flex-direction: column;
+}
+.title h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: "Oswald", sans-serif;
+  color: #45444e;
+  border-bottom: 2px solid #45444e;
+}
+
+.container {
+  width: 50%;
+  height: auto;
+  background-color: rgb(212, 216, 219);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.container h2 {
+  font-family: "Oswald", sans-serif;
+  color: #f51441;
+}
+
+.container .img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.container span {
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  color: #45444e;
+}
+.container p {
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: "Oswald", sans-serif;
+}
+
+.arrows i {
+  width: 50px;
+  padding-bottom: 30px;
+  font-size: 25px;
+  cursor: pointer;
+  color: #f51441;
+}
+
+.arrows i:hover {
+  color: #45444e;
+}
